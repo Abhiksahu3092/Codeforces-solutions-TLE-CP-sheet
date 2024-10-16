@@ -1,0 +1,1 @@
+{"name":"Local: 1873B","url":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\1873B.cpp","tests":[{"id":1729082425469,"input":"4\n4\n<<>>\n4\n>><<\n5\n>>>>>\n7\n<><><><","output":"3\n3\n6\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\1873B.cpp","group":"local","local":true}
