@@ -21,7 +21,7 @@ void solve(){
     }
 
     while(!pq.empty()){
-        cout<<-1*pq.top().second+1<<" ";
+        cout<<abs(pq.top().second)+1<<" ";
         pq.pop();
     }
     cout<<endl;
