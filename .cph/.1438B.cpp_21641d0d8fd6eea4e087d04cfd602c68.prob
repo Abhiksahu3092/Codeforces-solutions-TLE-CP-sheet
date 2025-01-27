@@ -1,0 +1,1 @@
+{"name":"Local: 1438B","url":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\1438B.cpp","tests":[{"id":1737892549859,"input":"2\n6\n4 3 0 1 2 0\n2\n2 5","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\1438B.cpp","group":"local","local":true}
