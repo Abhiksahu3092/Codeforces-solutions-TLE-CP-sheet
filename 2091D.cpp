@@ -7,40 +7,23 @@ ll solve() {
     ll n, m, k;
     cin >> n >> m >> k;
 
-    if (n >= k) {
-        return 1;
+    if(n*m==k){
+        return m;
     }
 
-    ll rem = k % n;
-    ll each = k / n;
-
-    ll max1 = LLONG_MIN;
-    ll max2 = LLONG_MIN;
-
-    if (rem != 0) {
-        ll each1 = each + rem;
-        ll pos = m - each1 + 1;
-
-        if (pos > 0) {
-            if (pos >= each1) {
-                max1 = 1;
-            } else {
-                max1 = each1 / pos + (each1 % pos != 0);
-            }
+    ll l=1;
+    ll r=m-1;
+    while(l<=r){
+        ll mid=(l+r)/2;
+        if(((m/(mid+1))*mid+ m%(mid+1))*n >= k){
+            r=mid-1;
+        }
+        else{
+            l=mid+1;
         }
     }
 
-    ll pos2 = m - each + 1;
-
-    if (pos2 > 0) {
-        if (pos2 >= each) {
-            max2 = 1;
-        } else {
-            max2 = each / pos2 + (each % pos2 != 0);
-        }
-    }
-
-    return max(max1, max2);
+    return l;
 }
 
 int main() {
