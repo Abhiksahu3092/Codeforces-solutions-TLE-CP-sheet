@@ -1,0 +1,1 @@
+{"name":"Local: 263A","url":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\263A.cpp","tests":[{"id":1748605825522,"input":"0 0 0 0 0\n0 0 0 0 0\n0 1 0 0 0\n0 0 0 0 0\n0 0 0 0 0","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\263A.cpp","group":"local","local":true}
