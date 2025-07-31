@@ -1,0 +1,1 @@
+{"name":"Local: 2107B","url":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\2107B.cpp","tests":[{"id":1751178460889,"input":"3\n3 1\n2 1 2\n3 1\n1 1 3\n2 1\n1 4","output":"Tom\nTom\nJerry"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\C++\\Codeforces solutions(TLE cp sheet)\\2107B.cpp","group":"local","local":true}
